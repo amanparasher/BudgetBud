@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Advisor</title>
+    <style>
+        /* Add your CSS styling here */
+    </style>
+</head>
+<body>
+    <h1>Financial Advisor</h1>
+    <div id="advice"></div>
+    <button onclick="getAdvice()">Get Advice</button>
+
+    <script>
+        function getAdvice() {
+            // Sample data for demonstration
+            const data = { 
+                user_id: 123,
+                income: 5000,
+                expenses: 3000,
+                goals: ["retirement", "education"]
+            };
+
+            // Make a POST request to the backend using axios
+            axios.post('/api/advice', data)
+                .then(response => {
+                    // Display the response from the backend
+                    document.getElementById('advice').innerText = JSON.stringify(response.data);
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>
