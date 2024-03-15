@@ -3,17 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-    <meta content='https://www.HaileyJohnson.com/' property='og:url'/>
-    <meta content="I am a passionate product designer based in sas francisco Designing Minimal products based on the latest design trends and a good user experience in what i care about the most." property='og:description'> 
-    <meta content="Hailey Johnson" property='og:site_name'/>
-    <meta name="I am a passionate product designer based in sas francisco Designing Minimal products based on the latest design trends and a good user experience in what i care about the most.">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>BudgetBud | Budget Tracker</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/static/style.css">
 </head>
+<script>
+    function uploadFile() {
+        const fileInput = document.getElementById('csvFileInput');
+        const file = fileInput.files[0];
+
+        if (file) {
+            const fileName = file.name;
+            const fileType = fileName.slice(fileName.lastIndexOf('.') + 1);
+            if (fileType.toLowerCase() !== 'csv') {
+                displayErrorMessage();
+                return;
+            }
+
+            const formData = new FormData();
+            formData.append('file', file);
+
+            fetch('/upload', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.text();
+            })
+            .then(data => {
+                console.log(data);
+                alert('File uploaded successfully!');
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('An error occurred while uploading the file.');
+            });
+        } else {
+            alert('Please select a file.');
+        }
+    }
+
+    function displayErrorMessage() {
+        const errorMessage = document.getElementById('errorMessage');
+        errorMessage.style.display = 'block';
+    }
+</script>
 <body>
     
     <nav class="navbar">
@@ -64,7 +104,7 @@
             </div>
         </div>
         <div class="img-box">
-            <img src="img1.jpg" alt="">
+            <img src="/static/img1.jpg" alt="">
         </div>
         <div class="text-content">
             <h2></h2>
@@ -74,12 +114,16 @@
             <p></p>
             
             <div class="opp">
-                <!-- <a href="" class="btn-contact sm-hidden">Choose File</a> -->
-            <!-- </div> -->
-            <form action="/analyze" class="omr btn-contact sm-hidden menu_right " method="post" enctype="multipart/form-data">
+                <a href="" class="btn-contact sm-hidden">Choose File</a>
+            </div>
+            <form action="/analyze" id="uploadForm" class="omr btn-contact sm-hidden menu_right " method="POST" enctype="multipart/form-data">
+                <!-- {{form.hidden_tag()}}
+                {{form.file()}}
+                {{form.submit()}} -->
                 <input type="file" name="csvFile" accept=".csv" required>
-                <button class="btn-contact sm-hidden menu_right" type="submit">Analyze</button>
+                <button onclick="uploadFile()" class="btn-contact sm-hidden menu_right" type="submit">Analyze</button>
             </form>
+           
         </div>
         
     </header>

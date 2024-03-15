@@ -1,10 +1,10 @@
-from flask import Flask, request ,render_template
+from flask import Flask, request
 
 app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('hero.html')
+    return app.send_static_file('wow.html')
 
 @app.route('/upload', methods=['POST'])
 def upload():
