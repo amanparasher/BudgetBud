@@ -9,7 +9,7 @@ def find_month(string):
     month = int(string.split('/')[1])
     return month_dict[month]
 
-data = pd.read_csv('../spending.csv')
+data = pd.read_csv('../../spending.csv')
 data['description'] = data['description'].fillna('misc')
 
 data['amount'] = data['amount'].map(remove_comma).copy()
