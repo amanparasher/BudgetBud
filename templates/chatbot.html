@@ -34,18 +34,30 @@
 
         .chat-container {
           /* margin-left: 200px; */
-            max-width: 600px;
+            max-width: 1000px;
             margin: 20px auto;
+            margin-left: 150px;
+            margin-top: -50px;
+            border: 1px solid #1d2634;
+            border-radius: 10px;
+            height: 800px;
+            overflow: hidden;
+            /* overflow-x: hidden; */
+        }
+
+        .chat-box-container{
+            max-width: 1000px;
+            margin: 20px auto;
+            margin-top: -8px;
             border: 1px solid #ffffff;
             border-radius: 10px;
+            height: 350px;
             overflow: hidden;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            /* overflow-x: hidden; */
         }
 
         .chat-box {
           /* margin-left: 100px; */
-            height: 500px;
+            height: 350px;
             width: 800px;
             overflow-y: scroll;
             padding: 10px;
@@ -59,8 +71,8 @@
 
         .chat-input-container {
             display: flex;
-            border-top: 1px solid #000000;
-            border-bottom: 1px solid #000000;
+            margin-top: 10px;
+            
         }
 
         .chat-input {
@@ -104,6 +116,53 @@
         .prompt:hover {
             background-color: #ffffff;
         }
+
+        .chat-header {
+        text-align: center;
+        margin-top: 10px; /* Adjust the margin as needed */
+        }
+
+        .chat-header {
+        text-align: center;
+        margin-top: 50px; /* Adjust margin as needed */
+        position: relative;
+        width: 100%;
+        }
+
+        .budgetbud-text {
+            display: inline-block;
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typing 4s steps(40, end);
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+        }
+
+        /* Hide the cursor after typing animation */
+        .budgetbud-text::after {
+            content: '';
+            display: inline-block;
+            width: 2px; /* Adjust cursor width */
+            height: 1.2em; /* Adjust cursor height */
+            background-color: transparent; /* Adjust cursor color */
+            animation: blink-caret 0.5s step-end infinite alternate;
+        }
+
+        @keyframes blink-caret {
+            from, to {
+                background-color: transparent;
+            }
+            50% {
+                background-color: #1d2634;
+            }
+        }
         
     </style>
 
@@ -139,12 +198,12 @@
 
         <ul class="sidebar-list">
           <li class="sidebar-list-item">
-            <a href="admin.html">
+            <a href="/admin">
               <span class="material-icons-outlined">home </span> Dashboard
             </a>
           </li>
           <li class="sidebar-list-item">
-            <a id="sufo"  href="test.html" >
+            <a id="sufo"  href="/upload" >
               <span class="material-icons-outlined">add</span> Upload new file
             </a>
             
@@ -157,7 +216,7 @@
             </a>
           </li>
           <li class="sidebar-list-item">
-            <a href="/chatbot.html" >
+            <a href="/chatbot" >
               <span class="material-icons-outlined">settings_accessibility</span> AI Suggestion
             </a>
           </li>
@@ -167,18 +226,21 @@
       </aside>
       
 
-      <div class=" bbodychat-container">
-        <div class="chat-box" id="chat-box"></div>
+      <div class="chat-container">
+        <div class="chat-header">
+            <h1 class="budgetbud-text">BudgetBud AI</h1>
+        </div>
+        <div class = chat-box-container><div class="chat-box" id="chat-box"></div></div>
         <div class="chat-input-container">
             <input type="text" class="chat-input" id="user-input" placeholder="Type your message...">
             <button class="send-button" onclick="sendMessage()">Send</button>
         </div>
         <div class="prompt-container">
-            <div class="prompt" onclick="selectPrompt('In which category can I reduce my expenses as my monthly salary is?')">Category Expenses</div>
-            <div class="prompt" onclick="selectPrompt('How do i save more according to my data?')">Save More</div>
-            <div class="prompt" onclick="selectPrompt('How do i save more according to my data?')">Save More</div>
-            <div class="prompt" onclick="selectPrompt('How do i save more according to my data?')">Save More</div>
-            <div class="prompt" onclick="selectPrompt('How do i save more according to my data?')">Some Salary</div>
+            <div class="prompt" onclick="selectPrompt('What are some strategies to efficiently allocate my budget across various expense categories?')">Category Expenses</div>
+            <div class="prompt" onclick="selectPrompt('Can you provide suggestions on how to manage my expenses better in each category considering my income?')">Suggestions</div>
+            <div class="prompt" onclick="selectPrompt('I need advice on how to budget effectively for different expenses based on my monthly earnings. What do you recommend?')">Efficient Budgeting</div>
+            <div class="prompt" onclick="selectPrompt(' How can I prioritize my spending in various categories to ensure I am making the best use of my income?')">Spendings</div>
+            <div class="prompt" onclick="selectPrompt('What percentage of my income should I ideally allocate to different expense categories to achieve financial balance?')">Finances</div>
         </div>
     </div>
         
@@ -206,9 +268,9 @@
           // and receive a response from the chatbot backend.
           // For demonstration purposes, I'll just echo the user's input as the bot's response.
           setTimeout(function() {
-              displayMessage("Bot is typing...", "bot");
+              displayMessage("BudgetBud AI is typing...", "BudgetBud AI");
               setTimeout(function() {
-                  displayMessage("This is a placeholder response.", "bot");
+                  displayMessage("This is a placeholder response.", "BudgetBud AI");
               }, 1000);
           }, 500);
           document.getElementById("user-input").value = "";
