@@ -2,7 +2,7 @@
 <div align = "center"><i><b>
 "Empowering Your Financial Journey, One Step at a Time."</i></b>
 
-![logo](./images/logo_main.png) 
+![logo](static/images/logo_main.png) 
   
 </div>
 We are team Binary Bulls and we have developed a web app that's a personally curated financial advisor for users with a busy schedule.
