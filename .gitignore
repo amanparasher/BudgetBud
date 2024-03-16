@@ -1,11 +1,23 @@
 # IDE files
 .idea/
 
+
+finance
+model/analysis.ipynb
+
+backup.txt
+model/__pycache__
+# IDE files
+.idea/
+
 # Environment files
 .env
 
 finance
 
+
 # ipynb files
 
 ipynb files
+=======
+
