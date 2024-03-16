@@ -1,16 +1,18 @@
 # IDE files
 .idea/
 
-
-finance
-model/analysis.ipynb
-
-backup.txt
-model/__pycache__
-# IDE files
-.idea/
-
 # Environment files
 .env
 
+# Modules Cache
 finance
+
+# Test files
+model/__pycache__
+model/analysis.ipynb
+backup.txt
+
+# ipynb files
+
+ipynb files
+
