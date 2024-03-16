@@ -19,7 +19,8 @@ if not os.path.exists(UPLOAD_FOLDER):
 
 @app.route('/')
 def index():
-    return render_template('wow.html', word=["wow", "sample"])
+    return render_template('hero.html')
+
 
 
 @app.route('/getCsv')
@@ -28,8 +29,24 @@ def get_csv():
     print(res)
 
 
-@app.route('/upload', methods=['POST'])
+@app.route('/admin', methods=['GET'])
+def admin():
+    gross, expense, income, test = 1450, 1000, 450, 900
+    return render_template('admin.html', gross=gross, expense=expense, income=income, test=test)
+
+
+@app.route('/upload', methods=['GET'])
 def upload():
+    return render_template('upload.html')
+
+
+@app.route('/chatbot', methods=['GET'])
+def chatbot():
+    return render_template('chatbot.html')
+
+
+@app.route('/uploadCsv', methods=['POST'])
+def uploadCsv():
     if 'file' not in request.files:
         return 'No file part'
     file = request.files['file']
