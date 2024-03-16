@@ -1,1 +1,5 @@
 finance
+model/analysis.ipynb
+.env
+backup.txt
+model/__pycache__
