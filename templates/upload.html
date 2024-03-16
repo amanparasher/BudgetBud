@@ -76,22 +76,6 @@
   <body>
     <div class="grid-container">
 
-      <!-- Header -->
-      <header class="header">
-        <div class="menu-icon" onclick="openSidebar()">
-          <span class="material-icons-outlined">menu</span>
-        </div>
-        <div class="header-left">
-          <span class="material-icons-outlined">search</span>
-        </div>
-        <div class="header-right">
-          <span class="material-icons-outlined">notifications</span>
-          <span class="material-icons-outlined">email</span>
-          <span class="material-icons-outlined">account_circle</span>
-        </div>
-      </header>
-      <!-- End Header -->
-
       <!-- Sidebar -->
       <aside id="sidebar">
         <div class="sidebar-title">
@@ -133,16 +117,20 @@
           
         </ul>
       </aside>
-      
-      <div class="bbody">
-        <form  method="post" enctype="multipart/form-data">
-            <label class="llabel"><input class="iinput" type="file" name="file" id="csvFileInput" accept=".csv">Get file</label>
-        </form>
-        <button type="button" class="boat" onclick="uploadFile()">Upload</button>
-    </div>
 
+      <main class="main-container">
+        <div class="main-title">
+            <h2>Upload CSV file</h2>
+        </div>
 
+        <div class="bbody">
+          <form  method="post" enctype="multipart/form-data">
+              <label class="llabel"><input class="iinput" type="file" name="file" id="csvFileInput" accept=".csv">Get file</label>
+          </form>
+          <button type="button" class="boat" onclick="uploadFile()">Upload</button>
+        </div>
     </div>
+    </main>
 
     <!-- Scripts -->
 
