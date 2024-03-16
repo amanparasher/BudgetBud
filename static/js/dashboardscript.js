@@ -31,7 +31,7 @@ function closeSidebar() {
 const barChartOptions = {
   series: [
     {
-      data: [10, 8, 6, 4, 2],
+      data: [10592, 35442, 53509, 19036, 14658, 10709],
       name: 'Products',
     },
   ],
@@ -89,7 +89,7 @@ const barChartOptions = {
     theme: 'dark',
   },
   xaxis: {
-    categories: ['Laptop', 'Phone', 'Monitor', 'Headphones', 'Camera'],
+    categories: ['October', 'November', 'December', 'January', 'February', 'March'],
     title: {
       style: {
         color: '#f5f7ff',
@@ -143,11 +143,11 @@ const areaChartOptions = {
   series: [
     {
       name: 'Purchase Orders',
-      data: [31, 40, 28, 51, 42, 109, 100],
+      data: ["Bills", "Car", "Clothes", "College works", "Communications", "Eating out", "Eggs", "Entertainment", "Food", "Friends", "Gifts", "Groceries", "Health", "House", "Petrol", "Sourav", "Sports", "Toiletry", "Transport"],
     },
     {
       name: 'Sales Orders',
-      data: [11, 32, 45, 32, 34, 52, 41],
+      data: [920,38475, 600, 17246, 400, 96, 1150, 5155, 25330, 772, 581, 5006, 10755, 23604, 1869, 496, 1501, 1676,11047],
     },
   ],
   chart: {
@@ -262,11 +262,12 @@ areaChart.render();
 
 // Pie Chart
 var options = {
-  series: [44, 55, 13, 33],
+  series: [920,38475, 600, 17246, 400, 96, 1150, 5155, 25330, 772, 581, 5006, 10755, 23604, 1869, 496, 1501, 1676,11047],
   chart: {
   width: 380,
   type: 'donut',
 },
+  labels: ["Bills", "Car", "Clothes", "College works", "Communications", "Eating out", "Eggs", "Entertainment", "Food", "Friends", "Gifts", "Groceries", "Health", "House", "Petrol", "Sourav", "Sports", "Toiletry", "Transport"],
 dataLabels: {
   enabled: false
 },
