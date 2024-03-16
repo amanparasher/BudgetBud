@@ -22,6 +22,7 @@ def index():
     return render_template('hero.html')
 
 
+
 @app.route('/getCsv')
 def get_csv():
     res = supabase.storage.from_('csv-files').get_public_url('demo-data.csv')
