@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Admin Dashboard</title>
+
+    <!-- Montserrat Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+    <!-- Custom CSS -->
+
+    <style>
+        .llabel {
+	display: block;
+	width: 60vw;
+	max-width: 300px;
+	margin: 0 auto;
+	background-color: slateblue;
+	border-radius: 2px;
+	font-size: 1em;
+	line-height: 2.5em;
+	text-align: center;
+    border-radius: 5px;
+}
+
+.llabel:hover {
+	background-color: cornflowerblue;
+}
+
+.llabel:active {
+	background-color: mediumaquamarine;
+}
+
+.iinput {
+	border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px; 
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.bbody {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 70vh;
+	width: 79vw;
+	overflow: hidden;
+	background-color:#1d2634;
+}
+.boat{
+    height: 43px;
+    width: 18rem;
+    background-color: rgb(241, 147, 147);
+    margin-left: 5px;
+    border-radius: 5px;
+    font-family: "Montserrat","sans-serif";
+
+}
+
+.boat:hover{
+  background-color: crimson;
+}
+
+    </style>
+
+    <link rel="stylesheet" href="/static/css/dashboardstyle.css">
+  </head>
+  <body>
+    <div class="grid-container">
+
+      <!-- Sidebar -->
+      <aside id="sidebar">
+        <div class="sidebar-title">
+          <div class="sidebar-brand">
+            <span class="material-icons-outlined"></span> BudgetBud
+          </div>
+          <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
+        </div>
+
+        <ul class="sidebar-list">
+          <li class="sidebar-list-item">
+            <a href="/admin">
+              <span class="material-icons-outlined">home </span> Dashboard
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a id="sufo"  href="/upload" >
+              <span class="material-icons-outlined">add</span> Upload new file
+            </a>
+            
+            <!-- <form action="/analyze" class="formop" id="uploadForm"  method="POST" enctype="multipart/form-data" >
+              <input type="file" name="csvFile" accept=".csv" required>
+              <button onclick="uploadFile()" class="btn-contact sm-hidden menu_right" type="submit">Analyze</button> -->
+
+            </form>
+          </li>
+          
+          <li class="sidebar-list-item">
+            <a href="#" >
+              <span class="material-icons-outlined">bolt</span> Get Analysis
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="/chatbot" >
+              <span class="material-icons-outlined">settings_accessibility</span> AI Suggestion
+            </a>
+          </li>
+        
+          
+        </ul>
+      </aside>
+
+      <main class="main-container">
+        <div class="main-title">
+            <h2>Upload CSV file</h2>
+        </div>
+
+        <div class="bbody">
+          <form  method="post" enctype="multipart/form-data">
+              <label class="llabel"><input class="iinput" type="file" name="file" id="csvFileInput" accept=".csv">Get file</label>
+          </form>
+          <button type="button" class="boat" onclick="uploadFile()">Upload</button>
+        </div>
+    </div>
+    </main>
+
+    <!-- Scripts -->
+
+    <script>
+        function uploadFile() {
+            const fileInput = document.getElementById('csvFileInput');
+            const file = fileInput.files[0];
+
+            if (file) {
+                const fileName = file.name;
+                const fileType = fileName.slice(fileName.lastIndexOf('.') + 1);
+                if (fileType.toLowerCase() !== 'csv') {
+                    displayErrorMessage();
+                    return;
+                }
+
+                const formData = new FormData();
+                formData.append('file', file);
+
+                fetch('/uploadCsv', {
+                    method: 'POST',
+                    body: formData
+                })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.text();
+                })
+                .then(data => {
+                    console.log(data);
+                    alert('File uploaded successfully!');
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    alert('An error occurred while uploading the file.');
+                });
+            } else {
+                alert('Please select a file.');
+            }
+        }
+
+        function displayErrorMessage() {
+            const errorMessage = document.getElementById('errorMessage');
+            errorMessage.style.display = 'block';
+        }
+    </script>
+
+    <!-- ApexCharts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.35.5/apexcharts.min.js"></script>
+    <!-- Custom JS -->
+    <script src="/static/js/dashboardscript.js"></script>
+  </body>
+</html>

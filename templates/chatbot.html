@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Admin Dashboard</title>
+
+    <!-- Montserrat Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+    <!-- Custom CSS -->
+
+    <style>
+         .bbody{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1d2634;
+            overflow: hidden;
+             /* overflow-y: hidden; 
+            overflow-x: hidden;   */
+            border-radius: 50px;
+
+        }
+
+        .bbodychat-container{
+          margin-left: 320px;
+          margin-top: 90px;
+          border-radius: 50px;
+        }
+
+        .chat-container {
+          /* margin-left: 200px; */
+            max-width: 600px;
+            margin: 20px auto;
+            border: 1px solid #ffffff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            /* overflow-x: hidden; */
+        }
+
+        .chat-box {
+          /* margin-left: 100px; */
+            height: 500px;
+            width: 800px;
+            overflow-y: scroll;
+            padding: 10px;
+            background-color: #ffffffe0;
+            color: #000000;
+            font-weight: bold;
+            font-family: "Montserrat","sa";
+            border-radius: 10px;
+            
+        }
+
+        .chat-input-container {
+            display: flex;
+            border-top: 1px solid #000000;
+            border-bottom: 1px solid #000000;
+        }
+
+        .chat-input {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            outline: none;
+        }
+
+        .send-button {
+            padding: 10px 20px;
+            background-color: #000000;
+            color: #fff;
+            border: none;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .send-button:hover {
+            background-color: #000000;
+        }
+
+        .prompt-container {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+        }
+
+        .prompt {
+            padding: 8px 16px   ;
+            background-color: #00000044;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .prompt:hover {
+            background-color: #ffffff;
+        }
+        
+    </style>
+
+    <link rel="stylesheet" href="/static/css/dashboardstyle.css">
+  </head>
+  <body>
+    <div class="grid-container">
+
+      <!-- Header -->
+<!--      <header class="header">-->
+<!--        <div class="menu-icon" onclick="openSidebar()">-->
+<!--          <span class="material-icons-outlined">menu</span>-->
+<!--        </div>-->
+<!--        <div class="header-left">-->
+<!--        </div>-->
+<!--        <div class="header-right">-->
+<!--          <span class="material-icons-outlined">notifications</span>-->
+<!--          <span class="material-icons-outlined">email</span>-->
+<!--          <span class="material-icons-outlined">account_circle</span>-->
+<!--        </div>-->
+<!--      </header>-->
+      <!-- End Header -->
+
+      <!-- Sidebar -->
+      <aside id="sidebar">
+         <div class="sidebar-title">
+          <div class="sidebar-brand">
+            <span class="material-icons-outlined"></span> BudgetBud
+          </div>
+          <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
+        </div>
+
+        <ul class="sidebar-list">
+          <li class="sidebar-list-item">
+            <a href="/admin">
+              <span class="material-icons-outlined">home </span> Dashboard
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a id="sufo"  href="/upload" >
+              <span class="material-icons-outlined">add</span> Upload new file
+            </a>
+            
+            <!-- <button onclick="uploadFile()" class="btn-contact sm-hidden menu_right" type="submit">Analyze</button> -->
+          </li>
+          
+          <li class="sidebar-list-item">
+            <a href="#" >
+              <span class="material-icons-outlined">bolt</span> Get Analysis
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="/chatbot" >
+              <span class="material-icons-outlined">settings_accessibility</span> AI Suggestion
+            </a>
+          </li>
+        
+          
+        </ul>
+      </aside>
+      
+
+      <div class=" bbodychat-container">
+        <div class="chat-box" id="chat-box"></div>
+        <div class="chat-input-container">
+            <input type="text" class="chat-input" id="user-input" placeholder="Type your message...">
+            <button class="send-button" onclick="sendMessage()">Send</button>
+        </div>
+        <div class="prompt-container">
+            <div class="prompt" onclick="selectPrompt('In which category can I reduce my expenses as my monthly salary is?')">Category Expenses</div>
+            <div class="prompt" onclick="selectPrompt('How do i save more according to my data?')">Save More</div>
+            <div class="prompt" onclick="selectPrompt('How do i save more according to my data?')">Save More</div>
+            <div class="prompt" onclick="selectPrompt('How do i save more according to my data?')">Save More</div>
+            <div class="prompt" onclick="selectPrompt('How do i save more according to my data?')">Some Salary</div>
+        </div>
+    </div>
+        
+      </main>
+      
+      <!-- End Main -->
+
+    </div>
+
+    <!-- Scripts -->
+    <!-- ApexCharts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.35.5/apexcharts.min.js"></script>
+    <!-- Custom JS -->
+    <script src="/static/js/dashboardscript.js"></script>
+  </body>
+  <!-- Custom JS -->
+  <!-- <script src="/static/js/dashboardscript.js"></script> -->
+
+  <script>
+      function sendMessage() {
+          var userInput = document.getElementById("user-input").value;
+          if (userInput.trim() === "") return;
+          displayMessage(userInput, "user");
+          // Here you can send the user input to your backend for processing
+          // and receive a response from the chatbot backend.
+          // For demonstration purposes, I'll just echo the user's input as the bot's response.
+          setTimeout(function() {
+              displayMessage("Bot is typing...", "bot");
+              setTimeout(function() {
+                  displayMessage("This is a placeholder response.", "bot");
+              }, 1000);
+          }, 500);
+          document.getElementById("user-input").value = "";
+      }
+
+      function displayMessage(message, sender) {
+          var chatBox = document.getElementById("chat-box");
+          var messageElement = document.createElement("div");
+          messageElement.classList.add("message", sender);
+          messageElement.innerText = message;
+          chatBox.appendChild(messageElement);
+          chatBox.scrollTop = chatBox.scrollHeight;
+      }
+
+      function selectPrompt(prompt) {
+          document.getElementById("user-input").value = prompt;
+      }
+  </script>
+</html>
