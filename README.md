@@ -18,6 +18,9 @@ In the complex financial landscape, people face challenges managing finances due
 - Prioritize user experience and accessibility
 - Ensure availability across multiple devices and languages
 
+## User Process Flow Diagram
+![logo](static/images/image.png)
+
 ## Scope
 - Integration of AI algorithms for data analysis and portfolio management
 - Implementation of educational resources and interactive tools
@@ -25,3 +28,17 @@ In the complex financial landscape, people face challenges managing finances due
 - Testing and refinement to ensure accuracy and effectiveness
 - Scalability to accommodate growing user base and evolving needs
 - Continuous updates and improvements based on user feedback and market trends
+
+## Tech stack
+- Python : Numpy , Pandas
+- Flask
+- CSS
+- HTML
+- JavaScript
+- BootStrap
+- Google charts
+- GeminiAI api
+- SupaBase
+- ApexCharts.js
+- Heroku
+
