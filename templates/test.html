@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Admin Dashboard</title>
+
+    <!-- Montserrat Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+    <!-- Custom CSS -->
+
+    <style>
+        .llabel {
+	display: block;
+	width: 60vw;
+	max-width: 300px;
+	margin: 0 auto;
+	background-color: slateblue;
+	border-radius: 2px;
+	font-size: 1em;
+	line-height: 2.5em;
+	text-align: center;
+    border-radius: 5px;
+}
+
+.llabel:hover {
+	background-color: cornflowerblue;
+}
+
+.llabel:active {
+	background-color: mediumaquamarine;
+}
+
+.iinput {
+	border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px; 
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.bbody {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 70vh;
+	width: 79vw;
+	overflow: hidden;
+	background-color:#1d2634;
+}
+.boat{
+    height: 43px;
+    width: 18rem;
+    background-color: rgb(241, 147, 147);
+    margin-left: 5px;
+    border-radius: 5px;
+    font-family: "Montserrat","sans-serif";
+
+}
+    </style>
+
+    <link rel="stylesheet" href="/static/css/dashboardstyle.css">
+  </head>
+  <body>
+    <div class="grid-container">
+
+      <!-- Header -->
+      <header class="header">
+        <div class="menu-icon" onclick="openSidebar()">
+          <span class="material-icons-outlined">menu</span>
+        </div>
+        <div class="header-left">
+          <span class="material-icons-outlined">search</span>
+        </div>
+        <div class="header-right">
+          <span class="material-icons-outlined">notifications</span>
+          <span class="material-icons-outlined">email</span>
+          <span class="material-icons-outlined">account_circle</span>
+        </div>
+      </header>
+      <!-- End Header -->
+
+      <!-- Sidebar -->
+      <aside id="sidebar">
+        <div class="sidebar-title">
+          <div class="sidebar-brand">
+            <span class="material-icons-outlined"></span> BudgetBud
+          </div>
+          <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
+        </div>
+
+        <ul class="sidebar-list">
+          <li class="sidebar-list-item">
+            <a href="admin.html">
+              <span class="material-icons-outlined">home </span> Dashboard
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a id="sufo"  href="test.html" >
+              <span class="material-icons-outlined">add</span> Upload new file
+            </a>
+            
+            <!-- <form action="/analyze" class="formop" id="uploadForm"  method="POST" enctype="multipart/form-data" >
+              <input type="file" name="csvFile" accept=".csv" required>
+              <button onclick="uploadFile()" class="btn-contact sm-hidden menu_right" type="submit">Analyze</button> -->
+
+            </form>
+          </li>
+          
+          <li class="sidebar-list-item">
+            <a href="#" >
+              <span class="material-icons-outlined">bolt</span> Get Analysis
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="#" >
+              <span class="material-icons-outlined">settings_accessibility</span> AI Suggestion
+            </a>
+          </li>
+        
+          
+        </ul>
+      </aside>
+      
+      <div class="bbody">
+        <form  method="post" enctype="multipart/form-data">
+            <label class="llabel" for="apply"><input class="iinput" type="file" name="" id="apply" accept="image/*,.pdf">Get file</label>
+        </form>
+        <button class = "boat" >Upload</button> 
+    </div>
+        
+      </main>
+      
+      <!-- End Main -->
+
+    </div>
+
+    <!-- Scripts -->
+    <!-- ApexCharts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.35.5/apexcharts.min.js"></script>
+    <!-- Custom JS -->
+    <script src="/static/js/dashboardscript.js"></script>
+  </body>
+</html>

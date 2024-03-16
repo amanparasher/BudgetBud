@@ -1,0 +1,640 @@
+date,account,category,amount,currency,converted amount,currency,description
+18/10/2023,Bank account,Food,-120,INR,-120,INR,Olala dinner
+18/10/2023,Bank account,Food,-90,INR,-90,INR,Meals spoons
+18/10/2023,Bank account,Food,-120,INR,-120,INR,CH oreo shake
+18/10/2023,Bank account,Transport,"-1,250",INR,"-1,250",INR,Bus to Bangalore 
+19/10/2023,Bank account,Food,-30,INR,-30,INR,Vada 
+19/10/2023,Bank account,Food,-50,INR,-50,INR,Puttu kadala
+19/10/2023,Bank account,Food,-130,INR,-130,INR,Biriyani 
+19/10/2023,Bank account,Food,-50,INR,-50,INR,Breakfast 
+19/10/2023,Bank account,House,-150,INR,-150,INR,Screen guard 
+19/10/2023,Bank account,Sports,-100,INR,-100,INR,Football
+19/10/2023,Bank account,Food,-20,INR,-20,INR,Lime
+19/10/2023,Bank account,Car,-100,INR,-100,INR,Ojas petrol
+19/10/2023,Bank account,Food,-140,INR,-140,INR,Chicken mandhi
+20/10/2023,Bank account,Food,-120,INR,-120,INR,Chicken rice 
+20/10/2023,Bank account,Friends ,-190,INR,-190,INR,Sourav 
+20/10/2023,Bank account,Health,-130,INR,-130,INR,Haircut 
+20/10/2023,Bank account,Transport,-32,INR,-32,INR,Metro
+20/10/2023,Bank account,Transport,-10,INR,-10,INR,Auto
+21/10/2023,Bank account,Transport,-46,INR,-46,INR,Rapido
+21/10/2023,Bank account,Friends ,-15,INR,-15,INR,Slice ch
+21/10/2023,Bank account,Entertainment,"-1,300",INR,"-1,300",INR,Brooks and bonds
+21/10/2023,Bank account,Entertainment,-60,INR,-60,INR,Paper
+22/10/2023,Bank account,Food,-124,INR,-124,INR,Breakfast 
+22/10/2023,Bank account,Food,-150,INR,-150,INR,Meals+chicken
+22/10/2023,Bank account,Entertainment,-99,INR,-99,INR,Boost
+22/10/2023,Bank account,Transport,-215,INR,-215,INR,Auto 
+23/10/2023,Bank account,Entertainment,-300,INR,-300,INR,Chin lungs
+23/10/2023,Bank account,Entertainment,"-1,000",INR,"-1,000",INR,Omr blore
+23/10/2023,Bank account,Sports,-200,INR,-200,INR,Football
+23/10/2023,Bank account,Food,-280,INR,-280,INR,Lunch 
+23/10/2023,Bank account,Food,-200,INR,-200,INR,Dinner paneer
+24/10/2023,Bank account,Transport,-816,INR,-816,INR,Bus ticket to Chennai 
+24/10/2023,Bank account,Food,-170,INR,-170,INR,Alfahm
+25/10/2023,Bank account,Transport,-32,INR,-32,INR,Metro
+25/10/2023,Bank account,Transport,-10,INR,-10,INR,Auto
+25/10/2023,Bank account,Food,-55,INR,-55,INR,Breakfast
+25/10/2023,Bank account,Food,-120,INR,-120,INR,Biriyani 
+25/10/2023,Bank account,Friends ,-50,INR,-50,INR,Nandk 
+25/10/2023,Bank account,Food,-90,INR,-90,INR,Bread omlet + chikoo shake
+26/10/2023,Bank account,Bills,-100,INR,-100,INR,Slice repayment 
+26/10/2023,Bank account,Food,-40,INR,-40,INR,Dosa
+26/10/2023,Bank account,Transport,-40,INR,-40,INR,Share auto 
+26/10/2023,Bank account,Transport,-44,INR,-44,INR,Rapido
+26/10/2023,Bank account,College works,-260,INR,-260,INR,Arduino project 
+26/10/2023,Bank account,Food,-90,INR,-90,INR,Meals
+26/10/2023,Bank account,Food,-22,INR,-22,INR,Milk
+26/10/2023,Bank account,Food,-60,INR,-60,INR,Eggs
+26/10/2023,Bank account,Food,-20,INR,-20,INR,Bread 
+27/10/2023,Bank account,Food,-52,INR,-52,INR,Breakfast 
+27/10/2023,Bank account,Food,-30,INR,-30,INR,Watermelon juice
+27/10/2023,Bank account,Food,-90,INR,-90,INR,Meals
+27/10/2023,Bank account,Food,-10,INR,-10,INR,Pazhampori
+27/10/2023,Bank account,Transport,-40,INR,-40,INR,Rapido
+27/10/2023,Bank account,Food,-130,INR,-130,INR,Alfahm + chapati
+28/10/2023,Bank account,Food,-120,INR,-120,INR,Chicken rice
+28/10/2023,Bank account,Food,-10,INR,-10,INR,Banana 
+28/10/2023,Bank account,Eggs,-36,INR,-36,INR,Curd+eggs
+28/10/2023,Bank account,Food,-5,INR,-5,INR,Banana
+28/10/2023,Bank account,Food,-55,INR,-55,INR,Dinner
+28/10/2023,Bank account,Food,-4,INR,-4,INR,Coffee 
+29/10/2023,Bank account,Sports,-120,INR,-120,INR,Football 
+29/10/2023,Bank account,Sourav ,-30,INR,-30,INR,Sourav 
+29/10/2023,Bank account,Eggs,-26,INR,-26,INR,Eggs 
+29/10/2023,Bank account,Food,-30,INR,-30,INR,Yoghurt
+29/10/2023,Bank account,Food,-50,INR,-50,INR,Chicken leg piece
+29/10/2023,Bank account,Sourav ,-35,INR,-35,INR,Ammo
+29/10/2023,Bank account,Sourav,60,INR,60,INR,petrol+tea+shift
+29/10/2023,Bank account,Food,-140,INR,-140,INR,Alfahm+chapati 
+29/10/2023,Bank account,Food,-35,INR,-35,INR,Rose milk
+29/10/2023,Bank account,Food,-100,INR,-100,INR,Meals
+30/10/2023,Bank account,Food,-35,INR,-35,INR,Breakfast 
+30/10/2023,Bank account,Transport,-20,INR,-20,INR,Auto
+30/10/2023,Bank account,Food,-190,INR,-190,INR,Lunch + alfahm
+30/10/2023,Bank account,Food,-30,INR,-30,INR,Watermelon juice
+30/10/2023,Bank account,Eggs,-65,INR,-65,INR,Eggs
+30/10/2023,Bank account,Food,-40,INR,-40,INR,Chapati 
+31/10/2023,Bank account,Friends ,-10,INR,-10,INR,Vava shift
+31/10/2023,Bank account,Food,-100,INR,-100,INR,Club sandwich olala
+31/10/2023,Bank account,Health,-99,INR,-99,INR,Peanut butter 
+31/10/2023,Bank account,Eggs,-65,INR,-65,INR,Eggs
+31/10/2023,Bank account,Food,-10,INR,-10,INR,Curd
+01/11/2023,Bank account,Food,-35,INR,-35,INR,Yoghurt 
+01/11/2023,Bank account,Petrol,-20,INR,-20,INR,Petrol
+01/11/2023,Bank account,Transport,-20,INR,-20,INR,Share auto
+01/11/2023,Bank account,Food,-35,INR,-35,INR,Watermelon 
+01/11/2023,Bank account,Sourav ,-10,INR,-10,INR,Lime 
+01/11/2023,Bank account,Food,-140,INR,-140,INR,Chicken mandhi
+01/11/2023,Bank account,Transport,-20,INR,-20,INR,Auto
+01/11/2023,Bank account,Eggs,-39,INR,-39,INR,Eggs 
+01/11/2023,Bank account,Food,-40,INR,-40,INR,Chapati 
+01/11/2023,Bank account,Petrol,-40,INR,-40,INR,Petrol 
+02/11/2023,Bank account,Transport,-20,INR,-20,INR,Auto
+02/11/2023,Bank account,Friends ,-10,INR,-10,INR,Devaj cig 
+02/11/2023,Bank account,Transport,-20,INR,-20,INR,Auto
+02/11/2023,Bank account,Groceries,-24,INR,-24,INR,Milk
+02/11/2023,Bank account,Food,-120,INR,-120,INR,Biriyani 
+02/11/2023,Bank account,House,-10,INR,-10,INR,Surf excel
+02/11/2023,Bank account,Food,-40,INR,-40,INR,Chapati 
+02/11/2023,Bank account,Eggs,-39,INR,-39,INR,Eggs
+03/11/2023,Bank account,Transport,-50,INR,-50,INR,Rapido
+03/11/2023,Bank account,Food,-110,INR,-110,INR,Biriyani 
+03/11/2023,Bank account,Toiletry,-55,INR,-55,INR,Hairoil
+03/11/2023,Bank account,Eggs,-48,INR,-48,INR,Eggs
+04/11/2023,Bank account,House,"-2,399",INR,"-2,399",INR,Balzano blender 
+04/11/2023,Bank account,Groceries,-29,INR,-29,INR,Milk+banana
+04/11/2023,Bank account,Eggs,-65,INR,-65,INR,Eggs
+04/11/2023,Bank account,Groceries,-25,INR,-25,INR,Rice+ curd
+04/11/2023,Bank account,Groceries,-10,INR,-10,INR,Banana 
+04/11/2023,Bank account,Food,-130,INR,-130,INR,Tandoori+chapati
+04/11/2023,Bank account,Sports,-115,INR,-115,INR,Football 
+04/11/2023,Bank account,Sourav ,-25,INR,-25,INR,Sourav petrol
+05/11/2023,Bank account,Groceries,-24,INR,-24,INR,Milk
+05/11/2023,Bank account,Food,-93,INR,-93,INR,Alfahm + roti zomato
+05/11/2023,Bank account,House,-963,INR,-963,INR,Maintenance + Waterbill
+05/11/2023,Bank account,House,"-3,600",INR,"-3,600",INR,Rent
+05/11/2023,Bank account,Petrol,-34,INR,-34,INR,Petrol
+05/11/2023,Bank account,Bills,-66,INR,-66,INR,Police fine
+05/11/2023,Bank account,Eggs,-35,INR,-35,INR,Eggs
+05/11/2023,Bank account,Groceries,-24,INR,-24,INR,Milk
+06/11/2023,Bank account,Food,-40,INR,-40,INR,Vada
+06/11/2023,Bank account,Food,-120,INR,-120,INR,Biriyani 
+06/11/2023,Bank account,Groceries,-10,INR,-10,INR,Banana 
+06/11/2023,Bank account,House,-320,INR,-320,INR,Fridge repair
+06/11/2023,Bank account,Eggs,-56,INR,-56,INR,Eggs
+06/11/2023,Bank account,College works,"-9,600",INR,"-9,600",INR,Superset registration 
+06/11/2023,Bank account,Food,-20,INR,-20,INR,Dosa 
+06/11/2023,Bank account,Bills,-130,INR,-130,INR,Google one Autopay
+07/11/2023,Bank account,Food,-40,INR,-40,INR,Aval milk
+07/11/2023,Bank account,Transport,-48,INR,-48,INR,Rapido
+07/11/2023,Bank account,Food,-110,INR,-110,INR,Biryani
+07/11/2023,Bank account,Food,-140,INR,-140,INR,Alfahm+chapati
+07/11/2023,Bank account,Friends ,-10,INR,-10,INR,Devaj shift 
+07/11/2023,Bank account,College works,"-3,625",INR,"-3,625",INR,Exam fees
+08/11/2023,Bank account,Food,-30,INR,-30,INR,Snacks+coffee
+08/11/2023,Bank account,Food,-20,INR,-20,INR,Samosa+vada
+08/11/2023,Bank account,Food,-15,INR,-15,INR,Pineapple lime
+08/11/2023,Bank account,Food,-70,INR,-70,INR,Breakfast 
+08/11/2023,Bank account,Food,-100,INR,-100,INR,Tawa+chapati
+08/11/2023,Bank account,Groceries,-22,INR,-22,INR,Milk
+09/11/2023,Bank account,Food,-50,INR,-50,INR,Puttu+kadala
+09/11/2023,Bank account,Food,-10,INR,-10,INR,Tea
+09/11/2023,Bank account,Food,-110,INR,-110,INR,Tandoori 
+09/11/2023,Bank account,Groceries,-80,INR,-80,INR,Marconi 
+09/11/2023,Bank account,Eggs,-60,INR,-60,INR,Eggs 
+09/11/2023,Bank account,Groceries,-12,INR,-12,INR,Banana 
+09/11/2023,Bank account,Sports,-76,INR,-76,INR,Football 
+09/11/2023,Bank account,Food,-30,INR,-30,INR,Chapati
+10/11/2023,Bank account,Groceries,-10,INR,-10,INR,Beans
+10/11/2023,Bank account,Groceries,-199,INR,-199,INR,Chicken
+10/11/2023,Bank account,Groceries,-25,INR,-25,INR,Ginger garlic paste
+10/11/2023,Bank account,Groceries,-25,INR,-25,INR,Maida
+10/11/2023,Bank account,Groceries,-28,INR,-28,INR,Banana
+10/11/2023,Bank account,Groceries,-22,INR,-22,INR,Milk
+10/11/2023,Bank account,House,-20,INR,-20,INR,Washing liquid
+10/11/2023,Bank account,Health,"-1,799",INR,"-1,799",INR,Optimum Nutrition whey protein 
+10/11/2023,Bank account,Groceries,-22,INR,-22,INR,Milk 
+11/11/2023,Bank account,Health,-254,INR,-254,INR,Omega 3 healthkart
+11/11/2023,Bank account,Groceries,-20,INR,-20,INR,Rice
+11/11/2023,Bank account,Food,-40,INR,-40,INR,Dosa
+11/11/2023,Bank account,Food,-30,INR,-30,INR,Yoghurt 
+11/11/2023,Bank account,Eggs,-42,INR,-42,INR,Eggs
+12/11/2023,Bank account,Sports,-100,INR,-100,INR,Football 
+12/11/2023,Bank account,Food,-40,INR,-40,INR,Vada
+12/11/2023,Bank account,Food,-35,INR,-35,INR,Sandwich
+12/11/2023,Bank account,Entertainment,-150,INR,-150,INR,Dean whi
+12/11/2023,Bank account,Food,-100,INR,-100,INR,Chicken combo
+12/11/2023,Bank account,Entertainment,-223,INR,-223,INR,Joel cinammon
+13/11/2023,Bank account,Food,-120,INR,-120,INR,Biriyani 
+14/11/2023,Bank account,Food,-60,INR,-60,INR,Vada
+14/11/2023,Bank account,Sourav ,-30,INR,-30,INR,Shift
+14/11/2023,Bank account,College works,-26,INR,-26,INR,Arduino printout 
+14/11/2023,Bank account,Sourav ,-20,INR,-20,INR,Tea+indiemint
+14/11/2023,Bank account,Food,-140,INR,-140,INR,Chicken biriyani 
+14/11/2023,Bank account,Food,-28,INR,-28,INR,Maggi 
+14/11/2023,Bank account,Eggs,-78,INR,-78,INR,Eggs
+14/11/2023,Bank account,College works,-30,INR,-30,INR,Spiral binding 
+15/11/2023,Bank account,Food,-10,INR,-10,INR,Banana
+15/11/2023,Bank account,Groceries,-20,INR,-20,INR,Milk
+15/11/2023,Bank account,Food,-120,INR,-120,INR,Chicken rice
+15/11/2023,Bank account,Sourav,20,INR,20,INR,
+16/11/2023,Bank account,Transport,-29,INR,-29,INR,Rapido 
+16/11/2023,Bank account,Transport,-10,INR,-10,INR,Auto
+16/11/2023,Bank account,Transport,-380,INR,-380,INR,Train ticket to kannur 
+16/11/2023,Bank account,House,-119,INR,-119,INR,Waterbill
+16/11/2023,Bank account,Eggs,-21,INR,-21,INR,Eggs 
+17/11/2023,Bank account,Groceries,-25,INR,-25,INR,Curd
+17/11/2023,Bank account,Groceries,-20,INR,-20,INR,Milk
+17/11/2023,Bank account,Groceries,-200,INR,-200,INR,Chicken breast boneless
+17/11/2023,Bank account,Groceries,-51,INR,-51,INR,Grapes 
+17/11/2023,Bank account,Toiletry,-50,INR,-50,INR,Loofah
+17/11/2023,Bank account,House,-28,INR,-28,INR,Kitchen scrub 
+17/11/2023,Bank account,Groceries,-27,INR,-27,INR,Banana
+17/11/2023,Bank account,Groceries,-20,INR,-20,INR,Milk
+17/11/2023,Bank account,Eggs,-56,INR,-56,INR,Eggs 
+17/11/2023,Bank account,Food,-10,INR,-10,INR,Peanuts
+17/11/2023,Bank account,Transport,-10,INR,-10,INR,Auto
+17/11/2023,Bank account,Groceries,-65,INR,-65,INR,Chapati packet
+17/11/2023,Bank account,Groceries,-40,INR,-40,INR,Tomato+cashew+coriander leaves
+18/11/2023,Bank account,Bills,-300,INR,-300,INR,Police fine
+18/11/2023,Bank account,Groceries,-15,INR,-15,INR,Banana
+18/11/2023,Bank account,Food,-90,INR,-90,INR,Meals
+19/11/2023,Bank account,Groceries,-23,INR,-23,INR,Curd
+19/11/2023,Bank account,Groceries,-71,INR,-71,INR,Oats
+19/11/2023,Bank account,Groceries,-35,INR,-35,INR,Grapes
+19/11/2023,Bank account,Food,-49,INR,-49,INR,Peanuts 
+19/11/2023,Bank account,Groceries,-23,INR,-23,INR,Bread
+19/11/2023,Bank account,Groceries,-40,INR,-40,INR,Milk
+19/11/2023,Bank account,Groceries,-180,INR,-180,INR,Chicken breast boneless
+19/11/2023,Bank account,Eating out,-96,INR,-96,INR,soup amma
+19/11/2023,Bank account,Food,-80,INR,-80,INR,Beef tawa
+20/11/2023,Bank account,Groceries,-6,INR,-6,INR,Banana 
+20/11/2023,Bank account,Groceries,-6,INR,-6,INR,Banana
+20/11/2023,Bank account,Food,-120,INR,-120,INR,Chicken rice
+20/11/2023,Bank account,Eggs,-56,INR,-56,INR,Eggs
+20/11/2023,Bank account,Groceries,-161,INR,-161,INR,Peanut butter 
+20/11/2023,Bank account,Groceries,-40,INR,-40,INR,Milk
+20/11/2023,Bank account,Groceries,-28,INR,-28,INR,Maggi
+21/11/2023,Bank account,Food,-120,INR,-120,INR,Chicken rice
+21/11/2023,Bank account,Toiletry,-225,INR,-225,INR,Facewash 
+21/11/2023,Bank account,Groceries,-25,INR,-25,INR,Curd
+21/11/2023,Bank account,Groceries,-70,INR,-70,INR,Chapati
+21/11/2023,Bank account,Groceries,-40,INR,-40,INR,Milk
+22/11/2023,Bank account,Food,-110,INR,-110,INR,Beef rice
+22/11/2023,Bank account,Petrol,-25,INR,-25,INR,Petrol
+23/11/2023,Bank account,Food,-110,INR,-110,INR,Blends biriyani 
+24/11/2023,Bank account,Groceries,-55,INR,-55,INR,Yoghurt
+24/11/2023,Bank account,Food,-20,INR,-20,INR,Sting
+24/11/2023,Bank account,Groceries,-28,INR,-28,INR,Banana 
+24/11/2023,Bank account,Food,-20,INR,-20,INR,Lays 
+24/11/2023,Bank account,Groceries,-22,INR,-22,INR,Milk
+24/11/2023,Bank account,Transport,-15,INR,-15,INR,Zepto delivery 
+24/11/2023,Bank account,Food,-20,INR,-20,INR,Coffee+vada
+24/11/2023,Bank account,Food,-40,INR,-40,INR,Bread omlet
+24/11/2023,Bank account,Food,-160,INR,-160,INR,Chicken Mandhi
+24/11/2023,Bank account,Food,-10,INR,-10,INR,Coffee 
+25/11/2023,Bank account,Food,-80,INR,-80,INR,Meals
+25/11/2023,Bank account,Food,-40,INR,-40,INR,Bread omlet
+25/11/2023,Bank account,Food,-10,INR,-10,INR,Coffee
+25/11/2023,Bank account,Food,-85,INR,-85,INR,Butter chicken 
+26/11/2023,Bank account,Gifts,-200,INR,-200,INR,Rishi dress
+26/11/2023,Bank account,Food,-120,INR,-120,INR,Chicken rice
+26/11/2023,Bank account,Food,-40,INR,-40,INR,Kal nice 
+27/11/2023,Bank account,House,"-1,750",INR,"-1,750",INR,Current bill
+27/11/2023,Bank account,Petrol,-35,INR,-35,INR,Petrol
+27/11/2023,Bank account,Food,-80,INR,-80,INR,Meals
+27/11/2023,Bank account,Petrol,-35,INR,-35,INR,Petrol
+28/11/2023,Bank account,Groceries,-22,INR,-22,INR,Milk
+28/11/2023,Bank account,Groceries,-28,INR,-28,INR,Banana 
+28/11/2023,Bank account,Groceries,-28,INR,-28,INR,Maggi
+28/11/2023,Bank account,Transport,-8,INR,-8,INR,Delivery charge
+28/11/2023,Bank account,Petrol,-35,INR,-35,INR,Petrol 
+28/11/2023,Bank account,Food,-115,INR,-115,INR,Biriyani
+28/11/2023,Bank account,Sourav ,-20,INR,-20,INR,Sourav
+28/11/2023,Bank account,Food,-110,INR,-110,INR,Beef rice + chapati
+29/11/2023,Bank account,Food,-20,INR,-20,INR,Sting 
+29/11/2023,Bank account,Food,-110,INR,-110,INR,Biryani 
+29/11/2023,Bank account,Food,-20,INR,-20,INR,Yoghurt 
+29/11/2023,Bank account,Eggs,-50,INR,-50,INR,Eggs
+29/11/2023,Bank account,Groceries,-80,INR,-80,INR,Oats
+29/11/2023,Bank account,Groceries,-20,INR,-20,INR,Milk
+30/11/2023,Bank account,Groceries,-199,INR,-199,INR,Chicken breast boneless
+30/11/2023,Bank account,Groceries,-70,INR,-70,INR,Chapati
+30/11/2023,Bank account,Groceries,-24,INR,-24,INR,Curd
+30/11/2023,Bank account,Food,-20,INR,-20,INR,Yoghurt 
+30/11/2023,Bank account,Groceries,-106,INR,-106,INR,Peanut 
+30/11/2023,Bank account,Groceries,-20,INR,-20,INR,Milk
+30/11/2023,Bank account,Eggs,-42,INR,-42,INR,Eggs
+30/11/2023,Bank account,Entertainment,-240,INR,-240,INR,Movie Ticket
+30/11/2023,Bank account,Petrol,-100,INR,-100,INR,Petrol MT
+30/11/2023,Bank account,Transport,-253,INR,-253,INR,Parking 
+30/11/2023,Bank account,Food,-150,INR,-150,INR,Chicken kathi roll
+01/12/2023,Bank account,Food,-10,INR,-10,INR,Tea
+01/12/2023,Bank account,Sports,-140,INR,-140,INR,Football 
+01/12/2023,Bank account,Food,-80,INR,-80,INR,Butter chicken 
+01/12/2023,Bank account,Food,-80,INR,-80,INR,Beef tawa
+02/12/2023,Bank account,Transport,-15,INR,-15,INR,Delivery 
+02/12/2023,Bank account,Groceries,-30,INR,-30,INR,Milk
+02/12/2023,Bank account,Groceries,-30,INR,-30,INR,Banana
+02/12/2023,Bank account,Food,-75,INR,-75,INR,Chilli chicken 
+03/12/2023,Bank account,Food,-10,INR,-10,INR,Tea
+03/12/2023,Bank account,Food,-20,INR,-20,INR,Orange lays
+03/12/2023,Bank account,Food,-27,INR,-27,INR,Lays maxx
+03/12/2023,Bank account,Groceries,-23,INR,-23,INR,Yoghurt
+03/12/2023,Bank account,Groceries,-40,INR,-40,INR,Pasta 
+03/12/2023,Bank account,Groceries,-22,INR,-22,INR,Milk 
+03/12/2023,Bank account,Groceries,-100,INR,-100,INR,Dark fantasy 
+03/12/2023,Bank account,Transport,-25,INR,-25,INR,Delivery zepto
+04/12/2023,Bank account,Food,-150,INR,-150,INR,Dosa
+05/12/2023,Bank account,Food,-200,INR,-200,INR,Masala dosa
+05/12/2023,Bank account,Food,-20,INR,-20,INR,Water
+05/12/2023,Bank account,Food,-250,INR,-250,INR,Kfc
+05/12/2023,Bank account,House,"-3,600",INR,"-3,600",INR,Rent
+06/12/2023,Bank account,Car,"-1,200",INR,"-1,200",INR,Wheel alignment 
+06/12/2023,Bank account,Car,"-1,000",INR,"-1,000",INR,Petrol
+06/12/2023,Bank account,Groceries,-35,INR,-35,INR,Milk
+06/12/2023,Bank account,Toiletry,-98,INR,-98,INR,Shower gel
+06/12/2023,Bank account,Toiletry,-71,INR,-71,INR,Shampoo
+06/12/2023,Bank account,Toiletry,-89,INR,-89,INR,Conditioner 
+06/12/2023,Bank account,Groceries,-250,INR,-250,INR,Honey
+06/12/2023,Bank account,Toiletry,-98,INR,-98,INR,Hair cream
+07/12/2023,Bank account,Health,"-1,763",INR,"-1,763",INR,Whey protein biozyme 
+07/12/2023,Bank account,Car,"-1,150",INR,"-1,150",INR,Spark plug 
+07/12/2023,Bank account,Food,-36,INR,-36,INR,Chapati
+07/12/2023,Bank account,Health,-600,INR,-600,INR,Gym fees
+07/12/2023,Bank account,Groceries,-20,INR,-20,INR,Banana
+07/12/2023,Bank account,Friends ,-36,INR,-36,INR,Cig yash
+08/12/2023,Bank account,Food,-69,INR,-69,INR,Snacks
+08/12/2023,Bank account,Food,-407,INR,-407,INR,Lunch
+08/12/2023,Bank account,Transport,-334,INR,-334,INR,Petrol
+08/12/2023,Bank account,Transport,-360,INR,-360,INR,Toll 
+09/12/2023,Bank account,House,-906,INR,-906,INR,Maintenance + Waterbill 
+10/12/2023,Bank account,Transport,"-1,900",INR,"-1,900",INR,Petrol i10
+11/12/2023,Bank account,Food,-20,INR,-20,INR,Banana
+12/12/2023,Bank account,Food,-230,INR,-230,INR,Dinner
+12/12/2023,Bank account,Car,-500,INR,-500,INR,Fine city
+12/12/2023,Bank account,Car,"-1,500",INR,"-1,500",INR,Petrol 
+12/12/2023,Bank account,Food,-152,INR,-152,INR,Caesar salad
+13/12/2023,Bank account,Food,-36,INR,-36,INR,Chapati
+14/12/2023,Bank account,Groceries,-80,INR,-80,INR,Strawberry 
+14/12/2023,Bank account,Bills,-60,INR,-60,INR,Spotify premium
+15/12/2023,Bank account,Food,-300,INR,-300,INR,Food 
+17/12/2023,Bank account,Food,-38,INR,-38,INR,Kinder joy
+18/12/2023,Bank account,Food,-160,INR,-160,INR,Biriyani lunch
+19/12/2023,Bank account,Food,-60,INR,-60,INR,Oreo shake
+19/12/2023,Bank account,House,-50,INR,-50,INR,Nail cutter 
+20/12/2023,Bank account,Car,-450,INR,-450,INR,Car wash
+20/12/2023,Bank account,Food,-170,INR,-170,INR,Dinner
+22/12/2023,Bank account,Food,-350,INR,-350,INR,Lunch
+23/12/2023,Bank account,Entertainment,-177,INR,-177,INR,Movie
+23/12/2023,Bank account,Food,-200,INR,-200,INR,Biriyani 
+23/12/2023,Bank account,Food,-50,INR,-50,INR,Snacks 
+25/12/2023,Bank account,Food,-24,INR,-24,INR,Chapati
+25/12/2023,Bank account,Transport,-10,INR,-10,INR,Bus
+26/12/2023,Bank account,Car,"-19,300",INR,"-19,300",INR,Compressor+condensor
+26/12/2023,Bank account,Car,"-7,000",INR,"-7,000",INR,Car labour + parts
+28/12/2023,Bank account,Food,-200,INR,-200,INR,Alfahm
+28/12/2023,Bank account,Food,-239,INR,-239,INR,Petrol and food
+28/12/2023,Bank account,Health,-450,INR,-450,INR,Haircut
+29/12/2023,Bank account,Food,-552,INR,-552,INR,Food dinner
+29/12/2023,Bank account,Car,"-1,000",INR,"-1,000",INR,Petrol taigun
+30/12/2023,Bank account,Car,-800,INR,-800,INR,Petrol taigun
+31/12/2023,Bank account,Car,-500,INR,-500,INR,Petrol taigun 
+31/12/2023,Bank account,Car,-500,INR,-500,INR,Petrol etios
+31/12/2023,Bank account,Food,-332,INR,-332,INR,Food kps
+31/12/2023,Bank account,Transport,"-2,200",INR,"-2,200",INR,Bus to chennai
+31/12/2023,Bank account,Entertainment,-150,INR,-150,INR,Petrol and juice 
+31/12/2023,Bank account,Car,-300,INR,-300,INR,Petrol etios
+02/01/2024,Bank account,Food,-200,INR,-200,INR,Shawarma
+02/01/2024,Bank account,Food,-250,INR,-250,INR,Pizza
+03/01/2024,Bank account,Communications,-300,INR,-300,INR,Earphone jack
+03/01/2024,Bank account,Food,-100,INR,-100,INR,Dinner
+04/01/2024,Bank account,Groceries,-100,INR,-100,INR,Smoothie
+04/01/2024,Bank account,Food,-120,INR,-120,INR,Chicken rice
+04/01/2024,Bank account,Food,-75,INR,-75,INR,Soup
+04/01/2024,Bank account,Food,-135,INR,-135,INR,Dinner 
+05/01/2024,Bank account,Food,-140,INR,-140,INR,Biriyani
+05/01/2024,Bank account,Transport,-40,INR,-40,INR,Auto
+05/01/2024,Bank account,Food,-40,INR,-40,INR,Watermelon juice
+05/01/2024,Bank account,Food,-55,INR,-55,INR,Dinner
+06/01/2024,Bank account,Groceries,-135,INR,-135,INR,Groceries 
+06/01/2024,Bank account,Food,-155,INR,-155,INR,Lunch
+06/01/2024,Bank account,Sports,-120,INR,-120,INR,Football 
+06/01/2024,Bank account,Food,-35,INR,-35,INR,Dinner
+07/01/2024,Bank account,Bills,-130,INR,-130,INR,Autopay Google
+07/01/2024,Bank account,Food,-100,INR,-100,INR,Biriyani 
+07/01/2024,Bank account,Food,-45,INR,-45,INR,Chips and water
+07/01/2024,Bank account,Transport,-10,INR,-10,INR,Train 
+07/01/2024,Bank account,Food,-250,INR,-250,INR,Dinner
+08/01/2024,Bank account,Car,-500,INR,-500,INR,Petrol city
+09/01/2024,Bank account,Car,-400,INR,-400,INR,Ac belt
+10/01/2024,Bank account,Transport,-40,INR,-40,INR,Auto
+10/01/2024,Bank account,Food,-450,INR,-450,INR,Food 
+10/01/2024,Bank account,Entertainment,-500,INR,-500,INR,Gaming sim racing 
+10/01/2024,Bank account,Transport,-30,INR,-30,INR,Bus 
+10/01/2024,Bank account,Clothes,-600,INR,-600,INR,Jersey
+10/01/2024,Bank account,Transport,-100,INR,-100,INR,Train ticket 
+10/01/2024,Bank account,House,-788,INR,-788,INR,Maintenance+ water bill
+10/01/2024,Bank account,Car,-50,INR,-50,INR,Parking 
+10/01/2024,Bank account,Toiletry,-540,INR,-540,INR,Bath and body works perfume
+10/01/2024,Bank account,Transport,-100,INR,-100,INR,Train ticket 
+10/01/2024,Bank account,Friends,350,INR,350,INR,Rayan
+11/01/2024,Bank account,Food,-40,INR,-40,INR,Chapati
+11/01/2024,Bank account,Car,-20,INR,-20,INR,Parking 
+12/01/2024,Bank account,Food,-110,INR,-110,INR,Soup+chapati 
+13/01/2024,Bank account,Food,-140,INR,-140,INR,Dinner
+13/01/2024,Bank account,Food,-80,INR,-80,INR,Soup
+14/01/2024,Bank account,Bills,-59,INR,-59,INR,Spotify premium
+14/01/2024,Bank account,College works,"-3,500",INR,"-3,500",INR,Course
+15/01/2024,Bank account,Car,"-1,180",INR,"-1,180",INR,Wheel alignment + rotation 
+15/01/2024,Bank account,Food,-615,INR,-615,INR,Dinner
+15/01/2024,Bank account,Car,-500,INR,-500,INR,Petrol
+15/01/2024,Bank account,Friends ,-150,INR,-150,INR,Sourav
+15/01/2024,Bank account,Food,-140,INR,-140,INR,Food
+17/01/2024,Bank account,Food,-40,INR,-40,INR,Snacks
+17/01/2024,Bank account,Food,-120,INR,-120,INR,Biriyani 
+18/01/2024,Bank account,House,-35,INR,-35,INR,Brush
+18/01/2024,Bank account,Entertainment,-280,INR,-280,INR,Bowling
+18/01/2024,Bank account,Transport,-290,INR,-290,INR,Taxi 
+18/01/2024,Bank account,Food,-700,INR,-700,INR,Dinner
+18/01/2024,Bank account,Petrol,-300,INR,-300,INR,Cab 
+19/01/2024,Bank account,Food,-360,INR,-360,INR,Brunch
+19/01/2024,Bank account,Transport,-120,INR,-120,INR,Train ticket
+19/01/2024,Bank account,Transport,-90,INR,-90,INR,Auto
+19/01/2024,Bank account,Transport,-40,INR,-40,INR,Metro
+19/01/2024,Bank account,Food,-15,INR,-15,INR,Water
+28/01/2024,Bank account,Transport,-64,INR,-64,INR,Metro
+28/01/2024,Bank account,Food,-67,INR,-67,INR,Watermelon juice
+29/01/2024,Bank account,Petrol,-35,INR,-35,INR,Petrol
+29/01/2024,Bank account,Food,-55,INR,-55,INR,Breakfast 
+29/01/2024,Bank account,Food,-95,INR,-95,INR,Lunch
+29/01/2024,Bank account,Eggs,-42,INR,-42,INR,Eggs
+29/01/2024,Bank account,Friends ,-201,INR,-201,INR,Icecream 
+29/01/2024,Bank account,Groceries,-199,INR,-199,INR,Chicken
+29/01/2024,Bank account,Groceries,-40,INR,-40,INR,Milk
+29/01/2024,Bank account,Groceries,-25,INR,-25,INR,Curd
+29/01/2024,Bank account,Groceries,-25,INR,-25,INR,Bread
+29/01/2024,Bank account,Health,-800,INR,-800,INR,Gym fees 
+30/01/2024,Bank account,Food,-50,INR,-50,INR,Chapati kuruma
+30/01/2024,Bank account,Food,-40,INR,-40,INR,Dosa
+31/01/2024,Bank account,Entertainment,-29,INR,-29,INR,Minecraft 
+31/01/2024,Bank account,Food,-60,INR,-60,INR,Dosa
+31/01/2024,Bank account,Eggs,-24,INR,-24,INR,Eggs
+31/01/2024,Bank account,Groceries,-24,INR,-24,INR,Milk
+31/01/2024,Bank account,Food,-120,INR,-120,INR,Dinner
+31/01/2024,Bank account,Toiletry,-30,INR,-30,INR,Brush
+31/01/2024,Bank account,Health,"-1,700",INR,"-1,700",INR,Dentist
+31/01/2024,Bank account,Food,-104,INR,-104,INR,Lunch
+01/02/2024,Bank account,Food,-35,INR,-35,INR,Breakfast 
+01/02/2024,Bank account,Food,-180,INR,-180,INR,Lunch
+01/02/2024,Bank account,Sourav ,-10,INR,-10,INR,Sourav
+01/02/2024,Bank account,Petrol,-50,INR,-50,INR,Petrol
+01/02/2024,Bank account,Food,-35,INR,-35,INR,Dosa
+01/02/2024,Bank account,Food,-120,INR,-120,INR,Dinner
+01/02/2024,Bank account,Groceries,-12,INR,-12,INR,Banana
+01/02/2024,Bank account,Groceries,-10,INR,-10,INR,Curd
+02/02/2024,Bank account,Petrol,-50,INR,-50,INR,Petrol
+02/02/2024,Bank account,Sports,-175,INR,-175,INR,Football
+02/02/2024,Bank account,Food,-12,INR,-12,INR,Banana
+02/02/2024,Bank account,Food,-10,INR,-10,INR,Tea
+02/02/2024,Bank account,Bills,-19,INR,-19,INR,Zepto premium 
+02/02/2024,Bank account,Eggs,-35,INR,-35,INR,Eggs
+02/02/2024,Bank account,Food,-130,INR,-130,INR,Dinner alfahm 
+02/02/2024,Bank account,College works,-70,INR,-70,INR,Notebook 
+03/02/2024,Bank account,Food,-110,INR,-110,INR,Biriyani 
+03/02/2024,Bank account,Petrol,-50,INR,-50,INR,Petrol 
+03/02/2024,Bank account,Food,-12,INR,-12,INR,Banana
+04/02/2024,Bank account,Food,-120,INR,-120,INR,Chicken rice
+05/02/2024,Bank account,Food,-30,INR,-30,INR,Coffee
+05/02/2024,Bank account,Food,-70,INR,-70,INR,Masala dosa
+05/02/2024,Bank account,House,-373,INR,-373,INR,Current bill
+05/02/2024,Bank account,House,-83,INR,-83,INR,Water bill
+05/02/2024,Bank account,Food,-104,INR,-104,INR,Dinner
+05/02/2024,Bank account,House,"-3,600",INR,"-3,600",INR,Rent
+06/02/2024,Bank account,Groceries,-30,INR,-30,INR,Milk
+06/02/2024,Bank account,Groceries,-60,INR,-60,INR,Banana
+06/02/2024,Bank account,Food,-30,INR,-30,INR,Ors
+06/02/2024,Bank account,Transport,"-1,703",INR,"-1,703",INR,Train ticket 
+06/02/2024,Bank account,Food,-140,INR,-140,INR,Biryani
+06/02/2024,Bank account,Food,-70,INR,-70,INR,Dinner dosa
+07/02/2024,Bank account,Food,-80,INR,-80,INR,Shawarma 
+07/02/2024,Bank account,Food,-70,INR,-70,INR,Meals
+07/02/2024,Bank account,College works,-70,INR,-70,INR,Book
+07/02/2024,Bank account,College works,-65,INR,-65,INR,Book 
+07/02/2024,Bank account,Groceries,-200,INR,-200,INR,Chicken
+07/02/2024,Bank account,Groceries,-40,INR,-40,INR,Milk
+07/02/2024,Bank account,Food,-20,INR,-20,INR,Yoghurt 
+07/02/2024,Bank account,Health,-60,INR,-60,INR,ORS
+07/02/2024,Bank account,Health,-240,INR,-240,INR,Hair serum
+07/02/2024,Bank account,Food,-45,INR,-45,INR,Protein bar
+07/02/2024,Bank account,Groceries,-131,INR,-131,INR,Shampoo
+08/02/2024,Bank account,Petrol,-50,INR,-50,INR,Sourav petrol 
+08/02/2024,Bank account,Food,-50,INR,-50,INR,Chapati 
+08/02/2024,Bank account,Food,-10,INR,-10,INR,Curd
+09/02/2024,Bank account,Communications,-100,INR,-100,INR,Phone case
+09/02/2024,Bank account,Food,-120,INR,-120,INR,Biriyani 
+09/02/2024,Bank account,Transport,-38,INR,-38,INR,Rapido
+09/02/2024,Bank account,Food,-154,INR,-154,INR,Protein bar
+10/02/2024,Bank account,Food,-310,INR,-310,INR,Lunch
+10/02/2024,Bank account,Car,-500,INR,-500,INR,Petrol
+12/02/2024,Bank account,Food,-290,INR,-290,INR,Dinner
+13/02/2024,Bank account,Food,-50,INR,-50,INR,MasalacDosa
+13/02/2024,Bank account,Food,-130,INR,-130,INR,Fried biryani 
+13/02/2024,Bank account,Food,-70,INR,-70,INR,Dinner
+13/02/2024,Bank account,Petrol,-40,INR,-40,INR,Petrol
+14/02/2024,Bank account,Food,-90,INR,-90,INR,Lunch
+14/02/2024,Bank account,Transport,-20,INR,-20,INR,Auto
+14/02/2024,Bank account,House,-850,INR,-850,INR,Maintenance 
+14/02/2024,Bank account,Food,-155,INR,-155,INR,Dinner 
+15/02/2024,Bank account,Food,-90,INR,-90,INR,Breakfast 
+15/02/2024,Bank account,Food,-50,INR,-50,INR,Sandwich 
+15/02/2024,Bank account,Petrol,-40,INR,-40,INR,Petrol
+15/02/2024,Bank account,Food,-90,INR,-90,INR,Lunch
+15/02/2024,Bank account,Food,-65,INR,-65,INR,Dinner
+15/02/2024,Bank account,Food,-120,INR,-120,INR,Soup
+16/02/2024,Bank account,Food,-75,INR,-75,INR,Breakfast+banana
+16/02/2024,Bank account,Petrol,-50,INR,-50,INR,Petrol
+16/02/2024,Bank account,Food,-110,INR,-110,INR,Chicken biriyani 
+16/02/2024,Bank account,Food,-55,INR,-55,INR,Leg piece 
+16/02/2024,Bank account,Food,-10,INR,-10,INR,Haldirams 
+16/02/2024,Bank account,Sourav ,-100,INR,-100,INR,Sourav petrol
+17/02/2024,Bank account,Food,-25,INR,-25,INR,Dosa+banana
+17/02/2024,Bank account,Food,-80,INR,-80,INR,Meals
+18/02/2024,Bank account,Food,-85,INR,-85,INR,Breakfast
+18/02/2024,Bank account,Food,-145,INR,-145,INR,Lunch 
+18/02/2024,Bank account,Food,-60,INR,-60,INR,Ojas food
+18/02/2024,Bank account,Petrol,-50,INR,-50,INR,Petrol devaj
+19/02/2024,Bank account,Food,-60,INR,-60,INR,Kabab roll
+19/02/2024,Bank account,Food,-85,INR,-85,INR,Half biriyani 
+19/02/2024,Bank account,House,-170,INR,-170,INR,House cleaning
+19/02/2024,Bank account,Entertainment,-174,INR,-174,INR,Movie ticket bramayugam
+19/02/2024,Bank account,House,-40,INR,-40,INR,Kitchen cleaning 
+19/02/2024,Bank account,Friends ,-50,INR,-50,INR,Devaj petrol
+19/02/2024,Bank account,Food,-100,INR,-100,INR,Half mandi
+19/02/2024,Bank account,Petrol,-150,INR,-150,INR,Petrol
+19/02/2024,Bank account,Sourav ,-150,INR,-150,INR,Sourav petrol
+19/02/2024,Bank account,Car,-25,INR,-25,INR,Parking 
+19/02/2024,Bank account,Sourav ,-38,INR,-38,INR,Sourav
+20/02/2024,Bank account,Food,-20,INR,-20,INR,Tea
+20/02/2024,Bank account,Food,-40,INR,-40,INR,Dosa
+20/02/2024,Bank account,Food,-45,INR,-45,INR,Rice
+20/02/2024,Bank account,Sourav ,-18,INR,-18,INR,Sourav
+21/02/2024,Bank account,Food,-50,INR,-50,INR,Puri 
+21/02/2024,Bank account,Food,-25,INR,-25,INR,Tea
+21/02/2024,Bank account,Food,-110,INR,-110,INR,Biriyani 
+21/02/2024,Bank account,Food,-35,INR,-35,INR,Chicken sandwich 
+21/02/2024,Bank account,Petrol,-40,INR,-40,INR,Petrol
+21/02/2024,Bank account,Food,-50,INR,-50,INR,Chicken leg piece
+22/02/2024,Bank account,Groceries,-113,INR,-113,INR,Groceries and water
+22/02/2024,Bank account,Food,-80,INR,-80,INR,Half biriyani 
+22/02/2024,Bank account,Petrol,-50,INR,-50,INR,Petrol
+22/02/2024,Bank account,Food,-71,INR,-71,INR,Rice+eggs
+23/02/2024,Bank account,Food,-130,INR,-130,INR,Lunch
+23/02/2024,Bank account,Petrol,-40,INR,-40,INR,Petrol 
+23/02/2024,Bank account,Deposits,"1,703",INR,"1,703",INR,Train ticket
+23/02/2024,Bank account,Deposits,500,INR,500,INR,Car petrol
+23/02/2024,Bank account,Sourav,100,INR,100,INR,
+23/02/2024,Bank account,Friends ,-50,INR,-50,INR,Devaj parking 
+23/02/2024,Bank account,Food,-15,INR,-15,INR,Banana+peanuts 
+23/02/2024,Bank account,Groceries,-15,INR,-15,INR,Sugar 
+23/02/2024,Bank account,Food,-10,INR,-10,INR,Kuruma
+23/02/2024,Bank account,Eggs,-42,INR,-42,INR,Eggs
+23/02/2024,Bank account,Petrol,-200,INR,-200,INR,Petrol theatre
+23/02/2024,Bank account,Petrol,-30,INR,-30,INR,Parking
+24/02/2024,Bank account,Groceries,-198,INR,-198,INR,Chicken
+24/02/2024,Bank account,Food,-25,INR,-25,INR,Juice
+24/02/2024,Bank account,Food,-54,INR,-54,INR,Haldirams
+24/02/2024,Bank account,Food,-115,INR,-115,INR,Dinner
+25/02/2024,Bank account,Food,-35,INR,-35,INR,Dosa+eggs
+25/02/2024,Bank account,Sports,-90,INR,-90,INR,Football 
+25/02/2024,Bank account,Eggs,-28,INR,-28,INR,Eggs
+25/02/2024,Bank account,Food,-10,INR,-10,INR,Kuruma
+25/02/2024,Bank account,Food,-5,INR,-5,INR,Banana
+25/02/2024,Bank account,Petrol,-50,INR,-50,INR,Petrol
+25/02/2024,Bank account,Health,-200,INR,-200,INR,Salycylic acid serum
+26/02/2024,Bank account,Food,-35,INR,-35,INR,Breakfast 
+26/02/2024,Bank account,Transport,-20,INR,-20,INR,Auto
+27/02/2024,Bank account,Groceries,-28,INR,-28,INR,Milk
+27/02/2024,Bank account,Food,-63,INR,-63,INR,Chapati
+27/02/2024,Bank account,Food,-25,INR,-25,INR,Curd
+27/02/2024,Bank account,Bills,-8,INR,-8,INR,Zepto
+27/02/2024,Bank account,Petrol,-50,INR,-50,INR,Petrol 
+27/02/2024,Bank account,Food,-85,INR,-85,INR,Butter chicken
+27/02/2024,Bank account,Food,-5,INR,-5,INR,Banana
+28/02/2024,Bank account,Food,-35,INR,-35,INR,Watermelon 
+28/02/2024,Bank account,Food,-20,INR,-20,INR,Puffs
+28/02/2024,Bank account,Food,-80,INR,-80,INR,Single biriyani 
+28/02/2024,Bank account,Groceries,-206,INR,-206,INR,Chicken breast boneless
+29/02/2024,Bank account,Gifts,-99,INR,-99,INR,Anagha cold coffee
+29/02/2024,Bank account,Food,-140,INR,-140,INR,Biriyani table-9
+29/02/2024,Bank account,Eggs,-35,INR,-35,INR,Egg
+29/02/2024,Bank account,Food,-10,INR,-10,INR,Kuruma 
+01/03/2024,Bank account,Sports,-66,INR,-66,INR,Pool
+01/03/2024,Bank account,Bills,-19,INR,-19,INR,Zepto pass
+01/03/2024,Bank account,Groceries,-72,INR,-72,INR,Oats
+01/03/2024,Bank account,Groceries,-28,INR,-28,INR,Milk
+01/03/2024,Bank account,Groceries,-60,INR,-60,INR,Banana
+01/03/2024,Bank account,Food,-25,INR,-25,INR,Yoghurt 
+01/03/2024,Bank account,Petrol,-40,INR,-40,INR,Petrol 
+01/03/2024,Bank account,Food,-80,INR,-80,INR,Biryani 
+01/03/2024,Bank account,Eggs,-35,INR,-35,INR,Eggs
+02/03/2024,Bank account,Groceries,-56,INR,-56,INR,Milk x2
+02/03/2024,Bank account,Food,-55,INR,-55,INR,Peanuts
+02/03/2024,Bank account,Groceries,-25,INR,-25,INR,Curd
+02/03/2024,Bank account,Transport,-20,INR,-20,INR,Auto 
+02/03/2024,Bank account,Food,-110,INR,-110,INR,Biriyani 
+03/03/2024,Bank account,Food,-50,INR,-50,INR,Mango shake
+03/03/2024,Bank account,Food,-110,INR,-110,INR,Beef rice
+03/03/2024,Bank account,Food,-10,INR,-10,INR,Samosa
+04/03/2024,Bank account,Transport,-20,INR,-20,INR,Auto
+04/03/2024,Bank account,Food,-140,INR,-140,INR,Chicken biryani
+04/03/2024,Bank account,Gifts,-150,INR,-150,INR,Muntazir treat
+04/03/2024,Bank account,Sports,-99,INR,-99,INR,Billiards 🎱
+04/03/2024,Bank account,Gifts,-10,INR,-10,INR,Prithvi biriyani 
+04/03/2024,Bank account,Food,-55,INR,-55,INR,Dinner
+05/03/2024,Bank account,Petrol,-50,INR,-50,INR,Petrol 
+05/03/2024,Bank account,Food,-10,INR,-10,INR,Pazhampori
+05/03/2024,Bank account,Food,-90,INR,-90,INR,Meals
+05/03/2024,Bank account,House,-150,INR,-150,INR,Wifi
+05/03/2024,Bank account,Food,-75,INR,-75,INR,Chilly chicken 
+05/03/2024,Bank account,House,"-3,600",INR,"-3,600",INR,Rent
+06/03/2024,Bank account,Food,-40,INR,-40,INR,Dosa
+06/03/2024,Bank account,Food,-35,INR,-35,INR,Juice + vada
+06/03/2024,Bank account,Food,-120,INR,-120,INR,Chicken rice
+07/03/2024,Bank account,Health,-200,INR,-200,INR,Physio Consultation 
+07/03/2024,Bank account,Food,-90,INR,-90,INR,Lunch
+07/03/2024,Bank account,Bills,-29,INR,-29,INR,Sourav recharge 
+07/03/2024,Bank account,Food,-40,INR,-40,INR,Dinner
+08/03/2024,Bank account,Transport,-20,INR,-20,INR,Auto
+08/03/2024,Bank account,Food,-125,INR,-125,INR,Lunch
+08/03/2024,Bank account,Food,-20,INR,-20,INR,Lime
+08/03/2024,Bank account,Sports,-100,INR,-100,INR,Football
+08/03/2024,Bank account,Food,-40,INR,-40,INR,Dosa
+09/03/2024,Bank account,Food,-90,INR,-90,INR,Meals
+09/03/2024,Bank account,Entertainment,-190,INR,-190,INR,Movie ticket manjumel boys
+09/03/2024,Bank account,Food,-145,INR,-145,INR,Dinner
+10/03/2024,Bank account,Food,-70,INR,-70,INR,Sandwich
+10/03/2024,Bank account,Entertainment,-130,INR,-130,INR,Pool
+10/03/2024,Bank account,Health,-360,INR,-360,INR,Medicine 
+10/03/2024,Bank account,Health,"-1,600",INR,"-1,600",INR,Physio laser treatment 
+10/03/2024,Bank account,Health,-500,INR,-500,INR,Doc consultant
+10/03/2024,Bank account,Food,-100,INR,-100,INR,Dinner 
+10/03/2024,Bank account,Toiletry,-50,INR,-50,INR,Tissue
+10/03/2024,Bank account,Toiletry,-370,INR,-370,INR,Mosquito net
+10/03/2024,Bank account,Entertainment,-63,INR,-63,INR,Cake nayana
+11/03/2024,Bank account,Food,-35,INR,-35,INR,Breakfast 
+11/03/2024,Bank account,Petrol,-40,INR,-40,INR,Petrol 
+11/03/2024,Bank account,Sourav ,-10,INR,-10,INR,Shift
+11/03/2024,Bank account,Food,-85,INR,-85,INR,Dinner
+12/03/2024,Bank account,Food,-110,INR,-110,INR,Biriyani 
+12/03/2024,Bank account,Eggs,-30,INR,-30,INR,Eggs
+12/03/2024,Bank account,Food,-10,INR,-10,INR,Curry
+12/03/2024,Bank account,Food,-15,INR,-15,INR,Black tea 
+13/03/2024,Bank account,Gifts,-122,INR,-122,INR,Jazeel cake split
+13/03/2024,Bank account,Food,-45,INR,-45,INR,Breakfast
+13/03/2024,Bank account,Petrol,-40,INR,-40,INR,Petrol
+13/03/2024,Bank account,Food,-80,INR,-80,INR,Lunch
+14/03/2024,Bank account,Food,-110,INR,-110,INR,Beef rice
+14/03/2024,Bank account,Petrol,-50,INR,-50,INR,Petrol
+14/03/2024,Bank account,Entertainment,-90,INR,-90,INR,Pool
