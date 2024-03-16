@@ -8,9 +8,6 @@
 .opp{
     margin: top 32px;
 }
-.omr{
-    ;
-}
 
 img {
     width: 100%;
@@ -19,6 +16,20 @@ img {
 
 a {
     text-decoration: none;
+}
+
+.ggwp{
+    margin-top: 25px;
+    background-color: #4a2dff;
+    color: white;
+    border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 120px;
+
 }
 
 

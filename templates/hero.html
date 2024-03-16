@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/css/style.css">
 </head>
 <script>
     function uploadFile() {
@@ -61,7 +61,7 @@
             <h2>BudgetBud</h2>
         </div>
         <div class="menu_right">
-            <a href="" class="btn-contact sm-hidden">Contact Us</a>
+            <a href="" class="btn-contact sm-hidden">Login</a>
         </div>
     </nav>
     <header class="header">
@@ -112,17 +112,20 @@
             <p>Your Personal Finance Partner. Take control of your finances with intuitive expense tracking, customized budgeting, and expert financial guidance tailored to your goals.
             </p>
             <p></p>
-            
-            <div class="opp">
-                <a href="" class="btn-contact sm-hidden">Choose File</a>
+            <div>
+                <a href="http://127.0.0.1:5500/templates/admin.html"><button class="ggwp">Proceed</button></a>
             </div>
-            <form action="/analyze" id="uploadForm" class="omr btn-contact sm-hidden menu_right " method="POST" enctype="multipart/form-data">
-                <!-- {{form.hidden_tag()}}
+            
+            <!-- <div class="opp">  
+                <a href="" class="btn-contact sm-hidden">Choose File</a>
+            </div> -->
+            <!-- <form action="/analyze" id="uploadForm" class="omr btn-contact sm-hidden menu_right " method="POST" enctype="multipart/form-data">
+                {{form.hidden_tag()}}
                 {{form.file()}}
-                {{form.submit()}} -->
+                {{form.submit()}}
                 <input type="file" name="csvFile" accept=".csv" required>
                 <button onclick="uploadFile()" class="btn-contact sm-hidden menu_right" type="submit">Analyze</button>
-            </form>
+            </form> -->
            
         </div>
         
