@@ -34,7 +34,11 @@ In the complex financial landscape, people face challenges managing finances due
 - Flask
 - CSS
 - HTML
-- Tailwind
+- JavaScript
+- BootStrap
 - Google charts
 - GeminiAI api
 - SupaBase
+- ApexCharts.js
+- Heroku
+
