@@ -19,7 +19,7 @@ In the complex financial landscape, people face challenges managing finances due
 - Ensure availability across multiple devices and languages
 
 ## User Process Flow Diagram
-![logo](images/image.png)
+![logo](static/images/image.png)
 
 ## Scope
 - Integration of AI algorithms for data analysis and portfolio management
