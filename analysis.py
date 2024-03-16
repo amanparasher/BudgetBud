@@ -30,5 +30,5 @@ data_monthly_category = data.set_index(['month','category']).copy()
 data_monthly_category = data_monthly_category.groupby(level=[0,1],sort=False)['amount'].sum() * -1
 data_monthly_category = data_monthly_category[data_monthly_category>0]
 
-data_by_month.to_json('data/json_data_by_month')
-data_by_category.to_json('data/json_data_by_category')
+data_by_month.to_json('data/json_data_by_month.json')
+data_by_category.to_json('data/json_data_by_category.json')
