@@ -27,6 +27,8 @@ def main():
 
     print("Welcome to the BudgetBud, your personalized financial advisor. Type 'quit' to exit.")
 
+
+    
     while True:
         #choices = ['In which category can I reduce my expenses as my monthly salary is?', 'How do i save more according to my data?']
         user_input = input("You: ")

@@ -14,27 +14,37 @@
     <!-- Custom CSS -->
 
     <style>
-         bbody {
+         .bbody{
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #1d2634;
             overflow: hidden;
-            overflow-y: hidden; /* Hide vertical scrollbar */
-  overflow-x: hidden; /* Hide horizontal scrollbar */
+             /* overflow-y: hidden; 
+            overflow-x: hidden;   */
+            border-radius: 50px;
 
         }
 
+        .bbodychat-container{
+          margin-left: 320px;
+          margin-top: 90px;
+          border-radius: 50px;
+        }
+
         .chat-container {
+          /* margin-left: 200px; */
             max-width: 600px;
             margin: 20px auto;
             border: 1px solid #ffffff;
             border-radius: 10px;
             overflow: hidden;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            /* overflow-x: hidden; */
         }
 
         .chat-box {
+          /* margin-left: 100px; */
             height: 500px;
             width: 800px;
             overflow-y: scroll;
@@ -42,7 +52,8 @@
             background-color: #ffffffe0;
             color: #000000;
             font-weight: bold;
-            font-family: "Montserrat","sans-serif";
+            font-family: "Montserrat","sa";
+            border-radius: 10px;
             
         }
 
@@ -107,7 +118,7 @@
           <span class="material-icons-outlined">menu</span>
         </div>
         <div class="header-left">
-          <span class="material-icons-outlined">search</span>
+          <!-- <span class="material-icons-outlined">search</span> -->
         </div>
         <div class="header-right">
           <span class="material-icons-outlined">notifications</span>
@@ -137,9 +148,7 @@
               <span class="material-icons-outlined">add</span> Upload new file
             </a>
             
-            <!-- <form action="/analyze" class="formop" id="uploadForm"  method="POST" enctype="multipart/form-data" >
-              <input type="file" name="csvFile" accept=".csv" required>
-              <button onclick="uploadFile()" class="btn-contact sm-hidden menu_right" type="submit">Analyze</button> -->
+            <!-- <button onclick="uploadFile()" class="btn-contact sm-hidden menu_right" type="submit">Analyze</button> -->
           </li>
           
           <li class="sidebar-list-item">
@@ -166,6 +175,8 @@
         </div>
         <div class="prompt-container">
             <div class="prompt" onclick="selectPrompt('In which category can I reduce my expenses as my monthly salary is?')">Category Expenses</div>
+            <div class="prompt" onclick="selectPrompt('How do i save more according to my data?')">Save More</div>
+            <div class="prompt" onclick="selectPrompt('How do i save more according to my data?')">Save More</div>
             <div class="prompt" onclick="selectPrompt('How do i save more according to my data?')">Save More</div>
             <div class="prompt" onclick="selectPrompt('How do i save more according to my data?')">Some Salary</div>
         </div>
