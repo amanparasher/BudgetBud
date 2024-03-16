@@ -45,6 +45,11 @@ def chatbot():
     return render_template('chatbot.html')
 
 
+@app.route('/tracker', methods=['GET'])
+def tracker():
+    return render_template('tracker.html')
+
+
 @app.route('/uploadCsv', methods=['POST'])
 def uploadCsv():
     if 'file' not in request.files:
