@@ -5,69 +5,137 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Expense Tracker</title>
+
+    <!-- Montserrat Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="/static/css/tstyle.css" />
+    <link rel="stylesheet" href="/static/css/dashboardstyle.css" />
+  
   </head>
   <body>
-    <h1>Expense Tracker</h1>
+    <body>
+      <div class="grid-container">
+  
+        <!-- Header -->
+  <!--      <header class="header">-->
+  <!--        <div class="menu-icon" onclick="openSidebar()">-->
+  <!--          <span class="material-icons-outlined">menu</span>-->
+  <!--        </div>-->
+  <!--        <div class="header-left">-->
+  <!--        </div>-->
+  <!--        <div class="header-right">-->
+  <!--          <span class="material-icons-outlined">notifications</span>-->
+  <!--          <span class="material-icons-outlined">email</span>-->
+  <!--          <span class="material-icons-outlined">account_circle</span>-->
+  <!--        </div>-->
+  <!--      </header>-->
+        <!-- End Header -->
+  
+        <!-- Sidebar -->
+        <aside id="sidebar">
+           <div class="sidebar-title">
+            <div class="sidebar-brand">
+              <span class="material-icons-outlined"></span> BudgetBud
+            </div>
+            <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
+          </div>
+  
+          <ul class="sidebar-list">
+            <li class="sidebar-list-item">
+              <a href="/admin">
+                <span class="material-icons-outlined">home </span> Dashboard
+              </a>
+            </li>
+            <li class="sidebar-list-item">
+              <a id="sufo"  href="/upload" >
+                <span class="material-icons-outlined">add</span> Upload new file
+              </a>
+              
+              <!-- <button onclick="uploadFile()" class="btn-contact sm-hidden menu_right" type="submit">Analyze</button> -->
+            </li>
+            
+            <li class="sidebar-list-item">
+              <a href="/tracker" >
+                <span class="material-icons-outlined">bolt</span> Tracker
+              </a>
+            </li>
+            <li class="sidebar-list-item">
+              <a href="/chatbot" >
+                <span class="material-icons-outlined">settings_accessibility</span> AI Suggestion
+              </a>
+            </li>
+          
+            
+          </ul>
+        </aside>
+        
+    <div class= tracker>
+      <h1>Expense Tracker</h1>
 
-    <main>
-      <header>
-        <div>
-          <h5>Total Balance</h5>
-          <span id="balance">₹0.00</span>
-        </div>
-        <div>
-          <h5>Income</h5>
-          <span id="income">₹0.00</span>
-        </div>
-        <div>
-          <h5>Expense</h5>
-          <span id="expense">₹0.00</span>
-        </div>
-      </header>
-
-      <section>
-        <h3>Transactions</h3>
-        <ul id="transactionList"></ul>
-        <div id="status"></div>
-      </section>
-
-      <section>
-        <h3>Add Transaction</h3>
-
-        <form id="transactionForm">
+      <main>
+        <header>
           <div>
-            <label for="type">
-              <input type="checkbox" name="type" id="type" />
-              <div class="option">
-                <span>Expense</span>
-                <span>Income</span>
-              </div>
-            </label>
+            <h5>Total Balance</h5>
+            <span id="balance">₹0.00</span>
           </div>
           <div>
-            <label for="name">Name</label>
-            <input type="text" name="name" required />
+            <h5>Income</h5>
+            <span id="income">₹0.00</span>
           </div>
           <div>
-            <label for="amount">Amount</label>
-            <input
-              type="number"
-              name="amount"
-              value="0"
-              min="0.01"
-              step="0.01"
-              required
-            />
+            <h5>Expense</h5>
+            <span id="expense">₹0.00</span>
           </div>
-          <div>
-            <label for="date">Date</label>
-            <input type="date" name="date" required />
-          </div>
-          <button type="submit">Submit</button>
-        </form>
-      </section>
-    </main>
+        </header>
+
+        <section>
+          <h3>Transactions</h3>
+          <ul id="transactionList"></ul>
+          <div id="status"></div>
+        </section>
+
+        <section>
+          <h3>Add Transaction</h3>
+
+          <form id="transactionForm">
+            <div>
+              <label for="type">
+                <input type="checkbox" name="type" id="type" />
+                <div class="option">
+                  <span>Expense</span>
+                  <span>Income</span>
+                </div>
+              </label>
+            </div>
+            <div>
+              <label for="name">Name</label>
+              <input type="text" name="name" required />
+            </div>
+            <div>
+              <label for="amount">Amount</label>
+              <input
+                type="number"
+                name="amount"
+                value="0"
+                min="0.01"
+                step="0.01"
+                required
+              />
+            </div>
+            <div>
+              <label for="date">Date</label>
+              <input type="date" name="date" required />
+            </div>
+            <button type="submit">Submit</button>
+          </form>
+        </section>
+      </main>
+    </div>
 
     <script src="/static/js/tscript.js"></script>
   </body>
