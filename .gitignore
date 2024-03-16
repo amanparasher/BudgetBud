@@ -1,2 +1,18 @@
-finance/
-finance/Lib/site-packages/distutils-precedence.pth
+# IDE files
+.idea/
+
+# Environment files
+.env
+
+# Modules Cache
+finance
+
+# Test files
+model/__pycache__
+model/analysis.ipynb
+backup.txt
+
+# ipynb files
+
+ipynb files
+
