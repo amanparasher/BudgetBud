@@ -10,50 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/static/css/style.css">
 </head>
-<script>
-    function uploadFile() {
-        const fileInput = document.getElementById('csvFileInput');
-        const file = fileInput.files[0];
 
-        if (file) {
-            const fileName = file.name;
-            const fileType = fileName.slice(fileName.lastIndexOf('.') + 1);
-            if (fileType.toLowerCase() !== 'csv') {
-                displayErrorMessage();
-                return;
-            }
-
-            const formData = new FormData();
-            formData.append('file', file);
-
-            fetch('/upload', {
-                method: 'POST',
-                body: formData
-            })
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                return response.text();
-            })
-            .then(data => {
-                console.log(data);
-                alert('File uploaded successfully!');
-            })
-            .catch(error => {
-                console.error('Error:', error);
-                alert('An error occurred while uploading the file.');
-            });
-        } else {
-            alert('Please select a file.');
-        }
-    }
-
-    function displayErrorMessage() {
-        const errorMessage = document.getElementById('errorMessage');
-        errorMessage.style.display = 'block';
-    }
-</script>
 <body>
     
     <nav class="navbar">
@@ -113,19 +70,9 @@
             </p>
             <p></p>
             <div>
-                <a href="http://127.0.0.1:5500/templates/admin.html"><button class="ggwp">Proceed</button></a>
+                <a href="/admin"><button class="ggwp">Proceed</button></a>
+                <a href="../tracker.html"><button class="ggwp">Enter Expenses</button></a>
             </div>
-            
-            <!-- <div class="opp">  
-                <a href="" class="btn-contact sm-hidden">Choose File</a>
-            </div> -->
-            <!-- <form action="/analyze" id="uploadForm" class="omr btn-contact sm-hidden menu_right " method="POST" enctype="multipart/form-data">
-                {{form.hidden_tag()}}
-                {{form.file()}}
-                {{form.submit()}}
-                <input type="file" name="csvFile" accept=".csv" required>
-                <button onclick="uploadFile()" class="btn-contact sm-hidden menu_right" type="submit">Analyze</button>
-            </form> -->
            
         </div>
         

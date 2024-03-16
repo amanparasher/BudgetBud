@@ -64,28 +64,17 @@
     font-family: "Montserrat","sans-serif";
 
 }
+
+.boat:hover{
+  background-color: crimson;
+}
+
     </style>
 
     <link rel="stylesheet" href="/static/css/dashboardstyle.css">
   </head>
   <body>
     <div class="grid-container">
-
-      <!-- Header -->
-      <header class="header">
-        <div class="menu-icon" onclick="openSidebar()">
-          <span class="material-icons-outlined">menu</span>
-        </div>
-        <div class="header-left">
-          <span class="material-icons-outlined">search</span>
-        </div>
-        <div class="header-right">
-          <span class="material-icons-outlined">notifications</span>
-          <span class="material-icons-outlined">email</span>
-          <span class="material-icons-outlined">account_circle</span>
-        </div>
-      </header>
-      <!-- End Header -->
 
       <!-- Sidebar -->
       <aside id="sidebar">
@@ -98,12 +87,12 @@
 
         <ul class="sidebar-list">
           <li class="sidebar-list-item">
-            <a href="admin.html">
+            <a href="/admin">
               <span class="material-icons-outlined">home </span> Dashboard
             </a>
           </li>
           <li class="sidebar-list-item">
-            <a id="sufo"  href="test.html" >
+            <a id="sufo"  href="/upload" >
               <span class="material-icons-outlined">add</span> Upload new file
             </a>
             
@@ -120,7 +109,7 @@
             </a>
           </li>
           <li class="sidebar-list-item">
-            <a href="#" >
+            <a href="/chatbot" >
               <span class="material-icons-outlined">settings_accessibility</span> AI Suggestion
             </a>
           </li>
@@ -128,21 +117,68 @@
           
         </ul>
       </aside>
-      
-      <div class="bbody">
-        <form  method="post" enctype="multipart/form-data">
-            <label class="llabel" for="apply"><input class="iinput" type="file" name="" id="apply" accept="image/*,.pdf">Get file</label>
-        </form>
-        <button class = "boat" >Upload</button> 
-    </div>
-        
-      </main>
-      
-      <!-- End Main -->
 
+      <main class="main-container">
+        <div class="main-title">
+            <h2>Upload CSV file</h2>
+        </div>
+
+        <div class="bbody">
+          <form  method="post" enctype="multipart/form-data">
+              <label class="llabel"><input class="iinput" type="file" name="file" id="csvFileInput" accept=".csv">Get file</label>
+          </form>
+          <button type="button" class="boat" onclick="uploadFile()">Upload</button>
+        </div>
     </div>
+    </main>
 
     <!-- Scripts -->
+
+    <script>
+        function uploadFile() {
+            const fileInput = document.getElementById('csvFileInput');
+            const file = fileInput.files[0];
+
+            if (file) {
+                const fileName = file.name;
+                const fileType = fileName.slice(fileName.lastIndexOf('.') + 1);
+                if (fileType.toLowerCase() !== 'csv') {
+                    displayErrorMessage();
+                    return;
+                }
+
+                const formData = new FormData();
+                formData.append('file', file);
+
+                fetch('/uploadCsv', {
+                    method: 'POST',
+                    body: formData
+                })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.text();
+                })
+                .then(data => {
+                    console.log(data);
+                    alert('File uploaded successfully!');
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    alert('An error occurred while uploading the file.');
+                });
+            } else {
+                alert('Please select a file.');
+            }
+        }
+
+        function displayErrorMessage() {
+            const errorMessage = document.getElementById('errorMessage');
+            errorMessage.style.display = 'block';
+        }
+    </script>
+
     <!-- ApexCharts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.35.5/apexcharts.min.js"></script>
     <!-- Custom JS -->
